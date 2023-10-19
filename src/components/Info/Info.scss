@@ -1,0 +1,18 @@
+.info-container {
+  padding: 4px;
+  border: 1px solid #373469;
+  border-top: none;
+}
+
+.info-text-input {
+  margin: 2px 0;
+  height: 30px;
+  border-radius: 2px;
+  color: white;
+  background-color: #383551;
+  border-color: #373469;
+}
+
+.info-text-input::placeholder {
+  color: #bfbfbf;
+}

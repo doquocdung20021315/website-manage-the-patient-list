@@ -1,0 +1,15 @@
+.state-item-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 8px 4px 8px;
+}
+
+.state-item-label {
+  color: white;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.quantity {
+  color: white;
+}

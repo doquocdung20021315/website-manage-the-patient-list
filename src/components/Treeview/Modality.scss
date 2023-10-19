@@ -1,0 +1,22 @@
+.container-modal {
+  margin: 10px 0 10px 40px;
+  display: flex;
+  align-items: center;
+}
+
+.checkbox-orange {
+  color: white;
+  span:where(.css-dev-only-do-not-override-1m62vyb).ant-checkbox-checked .ant-checkbox-inner {
+    background-color: #faad14;
+    border-color: #faad14;
+  }
+}
+
+.text-modal {
+  margin-left: 5px;
+  color: white;
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

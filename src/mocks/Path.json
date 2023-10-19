@@ -1,0 +1,11 @@
+{
+  "home": {
+    "url": "/"
+  },
+  "admin": {
+    "url": "/admin"
+  },
+  "login": {
+    "url": "/login"
+  }
+}

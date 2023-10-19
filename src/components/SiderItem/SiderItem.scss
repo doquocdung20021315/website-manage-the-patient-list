@@ -1,0 +1,15 @@
+.sider-item-container {
+  width: 100%;
+  border: 1px solid #373469;
+  padding: 8px;
+  background-color: #1f1c43;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sider-item {
+  font-weight: 700;
+  font-size: 14px;
+  color: #fff;
+}

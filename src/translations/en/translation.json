@@ -1,0 +1,16 @@
+{
+  "back": "Back",
+  "403": "Sorry, you are not authorized to access this page.",
+  "404": "Sorry, the page you visited does not exist.",
+  "login": {
+    "login": "Login",
+    "register": "Register",
+    "username": "Username",
+    "password": "Password",
+    "remember": "Remember",
+    "requiredMessage": {
+      "username": "Please input your username!",
+      "password": "Please input your password!"
+    }
+  }
+}

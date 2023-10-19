@@ -1,0 +1,186 @@
+:where(.css-dev-only-do-not-override-1m62vyb).ant-layout-header {
+  height: 40px;
+  padding-inline: 10px;
+  color: rgba(0, 0, 0, 0.88);
+  line-height: 64px;
+  background: #001529;
+}
+
+.header-demo {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.logo-container {
+  height: 100%;
+  width: 210px;
+  display: flex;
+  align-items: center;
+}
+
+img {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+}
+
+.logo-text {
+  height: 100%;
+  color: white;
+  font-size: 22px;
+  margin-left: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.header-middle-container {
+  width: calc(100% - 210px);
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-middle {
+  display: flex;
+  align-items: center;
+}
+
+.text-input {
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 2px;
+}
+
+.text-id {
+  width: 100px;
+  height: 25px;
+}
+
+.text-name {
+  margin-left: 5px;
+  width: 140px;
+  height: 25px;
+}
+
+.time-btn {
+  height: 25px;
+  color: white;
+  cursor: pointer;
+  border: 1px solid hsla(0, 0%, 80%, 0.34);
+  border-radius: 2px;
+  margin-left: 5px;
+  padding: 0 2px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  &__active {
+    border: 1px solid #faad14;
+  }
+}
+
+:where(.css-dev-only-do-not-override-1m62vyb).ant-picker {
+  background-color: transparent;
+  border: none;
+  width: 88px;
+}
+
+:where(.css-dev-only-do-not-override-1m62vyb).ant-picker .ant-picker-input > input {
+  color: white;
+  font-weight: 500;
+}
+
+.time-date {
+  height: 25px;
+  width: 100px;
+  border: 1px solid hsla(0, 0%, 80%, 0.34);
+  border-radius: 2px;
+  margin-left: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.time-space {
+  color: white;
+  font-weight: 500;
+  margin-left: 5px;
+}
+
+.button {
+  height: 25px;
+  cursor: pointer;
+  border: 1px solid hsla(0, 0%, 80%, 0.34);
+  border-radius: 2px;
+  margin-left: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.account-container {
+  position: relative;
+}
+
+.account-avatar {
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+
+.account-text {
+  height: 100%;
+  color: #faad14;
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.account-icon {
+  height: 32px;
+  font-size: 18px;
+  color: white;
+  background-color: rgb(124, 159, 96);
+  border-radius: 5px;
+  padding: 0 7px;
+  margin-left: 5px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.account-container:hover .account-setting {
+  display: block;
+}
+
+.account-setting {
+  display: none;
+  position: absolute;
+  top: 40px;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  background-color: white;
+  border-radius: 2px;
+  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
+  z-index: 10;
+}
+
+.account-setting-item {
+  height: 32px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: #013150;
+  font-weight: bold;
+}
+
+.account-setting-item:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.account-setting-icon {
+  font-size: 18px;
+  padding: 0 8px 0 18px;
+}

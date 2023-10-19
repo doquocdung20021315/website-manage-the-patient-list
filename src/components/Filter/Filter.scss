@@ -1,0 +1,43 @@
+.filter-container {
+  padding: 6px;
+  border: 1px solid #373469;
+  border-top: none;
+  margin-bottom: 10px;
+  overflow: auto;
+}
+
+.label {
+  color: white;
+  font-weight: 500;
+}
+
+.filter-text-input {
+  margin: 6px 0;
+  height: 30px;
+  border-radius: 2px;
+  color: white;
+  background-color: #383551;
+  border-color: #373469;
+}
+
+.filter-text-input::placeholder {
+  color: hsla(0,0%,80%,.34);
+  font-weight: 500;
+}
+
+.button-container {
+  margin-top: 10px;
+  margin-bottom: 2px;
+  display: flex;
+}
+
+.button {
+  color: white;
+  border: 1px solid rgba(204, 204, 204, 0.34);
+  padding: 1px 8px;
+  cursor: pointer;
+}
+
+.btn-clear {
+  margin-left: 22px;
+}

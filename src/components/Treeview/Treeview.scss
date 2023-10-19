@@ -1,0 +1,32 @@
+.all {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.icon-home {
+  margin-left: 25px;
+  color: #faad14;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.text-all {
+  margin: 0 8px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.text-input-all {
+  width: 100%;
+  height: 22px;
+  border-radius: 2px;
+  color: white;
+  background-color: transparent;
+  border-color: hsla(0,0%,80%,.34);
+}
+
+.text-input-all::placeholder {
+  color: hsla(0,0%,80%,.34);
+}

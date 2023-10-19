@@ -1,0 +1,68 @@
+.state-indication-container {
+  padding: 6px;
+  border: 1px solid #373469;
+  border-top: none;
+  margin-bottom: 10px;
+}
+
+.exceed-time-container {
+  position: relative;
+  margin: 20px 6px 10px 6px;
+  cursor: pointer;
+}
+
+.exceed-time-text {
+  color: white;
+  border: 1px solid rgba(204, 204, 204, 0.34);
+  padding: 2px 6px;
+  border-radius: 2px;
+  &__active {
+    border: 1px solid #faad14;
+  }
+}
+
+.exceed-time-number {
+  color: white;
+  position: absolute;
+  top: -20px;
+  right: 20px;
+  background-color: #545454;
+  padding: 3px;
+  border-radius: 2px;
+  &__active {
+    background-color: #faad14;
+  }
+}
+
+.ant-select {
+  width: 190px;
+  margin: 0 6px;
+}
+
+:where(.css-dev-only-do-not-override-1m62vyb).ant-select .ant-select-selection-placeholder {
+  color: hsla(0,0%,80%,.34);
+  font-weight: 500;
+  font-size: 14px;
+}
+
+:where(.css-dev-only-do-not-override-1m62vyb).ant-select-single .ant-select-selector .ant-select-selection-item, :where(.css-dev-only-do-not-override-1m62vyb).ant-select-single .ant-select-selector .ant-select-selection-placeholder {
+  line-height: 22px;
+}
+
+:where(.css-dev-only-do-not-override-1m62vyb).ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  background-color: transparent;
+  color: white;
+  border: 1px solid hsla(0,0%,80%,.34);
+  border-radius: 2px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+:where(.css-dev-only-do-not-override-1m62vyb).ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+  height: 24px;
+  padding: 0 6px;
+}
+
+:where(.css-dev-only-do-not-override-1m62vyb).ant-select .ant-select-arrow {
+  color: white;
+}

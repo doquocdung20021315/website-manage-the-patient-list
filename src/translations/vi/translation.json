@@ -1,0 +1,16 @@
+{
+  "back": "Trở lại",
+  "403": "Xin lỗi, bạn không được phép truy cập trang này.",
+  "404": "Xin lỗi, trang bạn truy cập không tồn tại.",
+  "login": {
+    "login": "Đăng nhập",
+    "register": "Đăng ký",
+    "username": "Tài khoản",
+    "password": "Mật khẩu",
+    "remember": "Ghi nhớ",
+    "requiredMessage": {
+      "username": "Vui lòng nhập tên người dùng của bạn!",
+      "password": "Vui lòng nhập mật khẩu của bạn!"
+    }
+  }
+}
